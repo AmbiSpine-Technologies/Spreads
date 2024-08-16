@@ -1,0 +1,59 @@
+/* Container and sticky top */
+.mini-top {
+  position: sticky;
+  top: 0;
+}
+
+.video-container {
+  height: 70vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.cards {
+  border-left: none;
+  border-bottom: none;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.Spon {
+  color: #f0822d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.story-body {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, 100%);
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.video-container:hover .story-body {
+  transform: translate(-50%, 0);
+  display: block;
+}
+
+#storyicon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.video-full-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px 10px 0 0;
+}

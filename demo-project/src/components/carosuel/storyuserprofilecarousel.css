@@ -1,0 +1,27 @@
+.storyuserprofilecarousel{
+
+  #carouselCard .carousel-control-next,
+#carouselCard .carousel-control-prev {
+  color: black;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin-top: 5%;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+#carouselCard .carousel-control-next {
+  float: right;
+  margin-right: -5%;
+}
+
+#carouselCard .carousel-control-prev {
+  float: left;
+  margin-top: 12%;
+  margin-left: -10%;
+}
+
+
+}

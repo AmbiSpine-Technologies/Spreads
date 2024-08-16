@@ -1,0 +1,62 @@
+.CommentModal{
+  font-family: 'Times New Roman', Times, serif;
+  top: 30px;
+  left: 10%;
+  width: 1000px;
+  height: 100vh;
+  background-color: white;
+}
+
+.CommentModal .comment-body-section{
+  height: 350px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modal-left{
+  width: 450px;
+  height: 90vh;
+}
+.modal-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-right {
+  flex: 1;
+  position: relative;
+  width: 450px;
+  height: 80vh;
+  padding: 20px;
+
+  .header-comment{
+    position: sticky;
+    margin-top: -20px;
+    border-radius: 4px;
+    
+  }
+
+  #close-icon{
+    background-color: transparent;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+  }
+  .comment-footer .form-control:focus{
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.UserCommentSection {
+  display: block;
+  height: 100px;
+}
+.nested-replies{
+  display: block;
+  height: 100px;
+}
+
+
+
+ 

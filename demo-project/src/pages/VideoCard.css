@@ -1,0 +1,67 @@
+.video-card {
+    width: 400px;
+   text-align: left;
+   h4{
+    color: orangered;
+    font-size: 1.4rem;
+    font-weight: bold;
+   }
+   p{
+    color: gray;
+    font-size: 1rem;
+   }
+  } 
+  .videos-card{
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 40px;
+    overflow: hidden;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   flex-direction: column;
+
+    .video-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .video-content video{
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        position: absolute;
+        top: 0;
+        margin-top: 12rem;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        border-radius: 50px;
+    }
+  }
+  #carouselExampleControls{
+    width: 900px;
+    padding: 1.4vmax;
+    border-radius: 20px;
+  }
+  #carouselExampleControls .carousel-control-prev{
+    margin-left: -1rem;
+    background-color: rgb(163, 156, 156);
+    width: 30px;
+    height: 30px;
+    margin-top: 10rem;
+    border-radius: 20px;
+    span{
+        font-size: 0.5rem;
+    }
+  }
+  #carouselExampleControls .carousel-control-next{
+    margin-right: -1rem;
+    background-color: rgb(168, 164, 164);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10rem;
+  }

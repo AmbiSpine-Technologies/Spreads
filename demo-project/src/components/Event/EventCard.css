@@ -1,0 +1,97 @@
+
+.Create-event .dropdown-box {
+  height: 250px;
+  width: 100%;
+  background-color: rgba(179, 187, 183, 0.689);
+  
+}
+.Add-by-event{
+  background-color: rgb(234, 230, 230);
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  height: 70px;
+}
+.dropdownfirst{
+  position: absolute;
+  width: 100px;
+  left: 80%;
+  top: 80%;
+}
+.eventcontainer .no-outline{
+  background-color: white;;
+  padding-left: 2px;
+  border-color: gray;
+ 
+}
+
+.eventcontainer .no-outline:focus{ 
+   outline: none;  
+}
+.eventcontainer .no-outline::placeholder {
+  color: black;
+}
+.time-zone{
+  border: 1px solid rgb(110, 109, 109);
+  border-radius:5px;
+  color: rgb(109, 108, 108);
+  width: 220px;
+  height: 65px;
+  
+}
+
+.hidden-date-input {
+  position: absolute;
+  left: 10px;
+  opacity: 0;
+}
+
+
+.hidden-time-input {
+  position: absolute;
+  left: 35%;
+  opacity: 0;
+  
+}
+
+.select-container .form-select{
+  border-color: gray;
+  height: 50px;
+}
+.select-container .form-select:focus {
+  border-color: gray;
+  outline: none;
+  box-shadow: none;
+
+      }  
+.form-select option:hover{
+  background-color: white;
+  color: black;
+      }      
+.dropdown-center .but-drop{
+ 
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 50px;
+}
+.fixed-textarea {
+  resize: none;
+  height: 4rem; /* Adjust the height as needed */
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.fixed-textarea:focus{
+  outline: none;
+  box-shadow: none;
+      
+}
+.accordion-item .accordion-header .accordion-button:focus {
+  /* z-index: 3;
+  outline: 0; */
+  box-shadow: none;
+}
+.accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: white;
+}

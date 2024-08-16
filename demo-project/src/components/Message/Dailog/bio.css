@@ -1,0 +1,18 @@
+.ProfileBioMad .modal-dialog {
+    max-width: 400px;
+    margin: 1.75rem auto;
+  }
+  
+.ProfileBioMad input{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+  .ProfileBioMad textarea{
+    border:1.5px solid rgb(78, 77, 77);
+    outline: none;
+  }
+  
+  .ProfileBioMad .outline-none {
+    outline: none;
+  }
+  

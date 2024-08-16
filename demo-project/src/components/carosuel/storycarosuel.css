@@ -1,0 +1,28 @@
+ .StoryCarosuel{
+  border: 5px soloid red;
+  margin-top: 50px;
+  border-radius: 3px;
+  background-color: rgba(250, 250, 250, 0);
+  background-color: white;
+
+}
+.carousel-control-prev{
+  margin-left: -3.3rem;
+  margin-top: -1rem;
+}
+.leftbutton{
+  color: rgb(143, 142, 142);
+  font-size: 2rem; 
+  background-color: transparent;
+}
+.carousel-control-next{
+  margin-top: 0rem;
+  margin-right: -2.8rem;
+}
+ .rightbutton{
+  color: rgb(143, 142, 142);
+  font-size: 2rem;
+  background-color: transparent;
+} 
+
+

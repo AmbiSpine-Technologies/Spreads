@@ -1,0 +1,153 @@
+
+.modal-content-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  top: 0;
+  min-height: 100%;
+  max-width: 100%;
+  left: 0;
+  padding: 2rem;
+}
+
+.modal-body-edit {
+  width: 60%;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+.cover-avatar {
+  position: relative;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #e9ecef;
+}
+
+.cover-avatar img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.avatar {
+  margin-top: -80px;
+  text-align: center;
+}
+
+.avatar img {
+  border: 4px solid #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.avatar h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.avatar p {
+  font-size: 1rem;
+  color: #777;
+  font-style: italic;
+}
+
+.form-label {
+  font-size: 0.875rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  outline: none;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.file-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.file-input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 1.5rem;
+  color: #777;
+}
+
+label {
+  font-size: 0.875rem;
+  color: #333;
+  font-weight: 600;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.btn-close {
+  font-size: 0.875rem;
+  color: #007bff;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-body-edit {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .cover-avatar img {
+    height: 200px;
+  }
+
+  .avatar {
+    margin-top: -60px;
+  }
+
+  .form-label {
+    font-size: 1rem;
+  }
+
+  .form-control {
+    padding: 0.5rem;
+  }
+
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+  }
+}

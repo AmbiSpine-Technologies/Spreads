@@ -1,0 +1,15 @@
+.footer {
+    height: 500px;
+}
+
+.contact-us {
+    width: 600px;
+    margin-top: -4rem;
+    position: absolute;
+    margin-bottom: 4rem;
+}
+
+li {
+    font-size: 0.8rem;
+    margin-bottom: -5px;
+}

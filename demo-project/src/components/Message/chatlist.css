@@ -1,0 +1,31 @@
+/* chatBox.css */
+.chat-containers-me {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    h4 {
+        margin-top:0.5max;
+        font-family: 'Cursive';
+        font-weight: bold;
+      }
+  }
+  
+  .chat-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+        
+  }
+  
+  .chat-containers-me .messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #natworkModal .modal-content{
+   background-color: rgb(250, 248, 248);
+  }

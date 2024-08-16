@@ -1,0 +1,35 @@
+#carouselCard .carousel-control-next,
+#carouselCard .carousel-control-prev {
+  color: black;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin-top: 10%;
+  border-radius: 50%;
+  margin-top: 8rem;
+  opacity: .8;
+}
+
+#carouselCard .carousel-control-next {
+  float: right;
+  margin-right: 5px;
+}
+
+#carouselCard .carousel-control-prev {
+  float: left;
+  margin-left: 10px;
+}
+
+#carouselCard .carousel-control-next-icon,
+#carouselCard .carousel-control-prev-icon {
+  font-size: 0.5rem; 
+  color: black;
+  background-color: black;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

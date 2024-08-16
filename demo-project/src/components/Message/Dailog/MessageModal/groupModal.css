@@ -1,0 +1,27 @@
+.gform form{
+    outline: none;
+      background-color: rgb(238, 239, 239);
+      .form-control {
+        background-color: rgb(238, 239, 239);
+      }
+      .form-control::placeholder{
+        
+              color: black;
+              font-weight: 400;
+              padding-left: 5px;
+            
+      }
+      .form-control:focus{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: rgb(238, 239, 239);
+      }
+      span{
+              color: rgb(179, 178, 178);
+              font-weight: 400;
+              background-color: transparent;
+      }
+    
+}
+

@@ -1,0 +1,22 @@
+.img-container{
+    position: relative;
+    margin-right: 0.8rem;
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        border: 1px solid gray;
+    }
+    .img-1{
+        position: absolute;
+        margin-left:0.5rem;
+        top: 0;
+    }
+    .dots{
+        font-size: 2.8rem;
+        color:orange;
+        position: absolute;
+        margin-top: 1.5rem;
+        margin-left:0.5rem;
+    }
+}

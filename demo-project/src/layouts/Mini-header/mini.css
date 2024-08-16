@@ -1,0 +1,46 @@
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.mini-container form{
+    width: 100%;
+    display: flex;
+    position: relative;
+    border: 1px solid gray;
+    background: rgb(192, 230, 245);
+    border-radius: 5px;
+    text-align: center;
+}
+.mini-container input{
+    border: none;
+    width: 100%;
+    outline: none;
+    color: black;
+    padding: 7px;
+    margin-left: 1rem;
+    background: transparent;
+}
+.mini-container input::placeholder{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+
+.tab-groups{
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+.tab-groups .btns{
+  background-color: rgb(201, 200, 200);
+    border: none;
+    outline: none;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}

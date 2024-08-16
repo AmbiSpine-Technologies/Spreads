@@ -1,0 +1,50 @@
+.cards{
+   border-left: 1px solid  #d0d0d0;
+   border-bottom: 1px solid  #d0d0d0;
+   h6{
+    text-align: left;
+    font-size: 0.8rem;
+   }
+}
+.heading{
+    border-bottom: 2px solid rgb(175, 173, 173);
+    p{
+        color: rgb(65, 64, 64);
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+    div{
+        background-color: rgb(56, 150, 187);
+        width: 25px;
+        height: 25px;
+        border-radius:50px;
+        padding:1px;
+        color: white;
+    }
+}
+.notification-card{
+    display: flex;
+    padding: 5px;
+    text-align: left;
+    gap: 0.5rem;
+    border: 1px solid  #d0d0d0;
+    background-color: rgb(202, 245, 231);
+}
+.notification-card  img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.notification-card p{
+    float: left;
+    font-size: 0.9rem;
+}
+.notification-card p .title{
+    font-weight: 500;
+    color: rgb(114, 113, 113);
+}
+.circle-icons{
+    font-size: 0.8rem;
+    color: rgb(52, 55, 238);
+  
+}

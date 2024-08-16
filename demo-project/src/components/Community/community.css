@@ -1,0 +1,58 @@
+.Communitysidebar {
+    background-color: white;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(104, 103, 103, 0.1);
+  }
+  
+  .Communitysidebar .list-group-item {
+    border: none;
+    color: black;
+    padding: 0.7rem 1.3rem;
+    display: flex;
+    font-weight:600;
+    align-items: center;
+    transition: background-color 0.2s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .Communitysidebar .list-group-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .Communitysidebar .fa-icon {
+    background-color: #007bff; 
+    color: white;
+    border-radius: 50%;
+    padding: 0.3rem;
+    margin-right: 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  /* followrs and following */
+  .Community-Container{
+    a{
+      text-decoration: none;
+      padding: 0rem 0.5rem;
+      font-weight: 600;
+      color: rgb(11, 11, 11);
+    }
+   
+    .card{
+      width: 100vh;
+      height: 85vh;
+    }
+    .card-body {
+      --bs-card-spacer-x: none
+    }
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link.active {
+    border-bottom: 2px solid green;
+  }

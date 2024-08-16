@@ -1,0 +1,53 @@
+/* .audio-container{
+          width: 800px;
+          height: 500px;
+}
+.img-container{
+          height: 400px;
+          img{
+                    width: 70px;
+                    height: 70px;
+                    
+          }
+}
+.share-icon{
+          margin-left: -40px;
+
+}
+.audio-container .left-corner .form-control
+{
+          border: 1px solid rgb(70, 70, 70);
+          border-radius: 10px;
+          background-color: white;
+         
+} */
+
+.audio-container{
+          width: 800px;
+          height: 500px;
+}
+
+.share-icon{
+          margin-left: -2rem;
+
+}
+.audio-container .left-corner .form-control
+{
+          border: 1px solid rgb(70, 70, 70);
+          border-radius: 10px;
+          background-color: white;
+         
+}
+ .host-container{
+          height: 400px;
+ }
+ .show-option-1 {
+          left: 38%;
+ }
+ .ThreeDot{
+   border: 2px solid gray;
+   border-radius: 5px;
+   a{
+    text-decoration: none;
+   }
+ }

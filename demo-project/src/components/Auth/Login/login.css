@@ -1,0 +1,149 @@
+/* General Styles */
+#banner-container {
+  position: relative;
+  height: 100vh;
+  margin:0;
+  padding:0;
+}
+
+.form-container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 450px;
+  position: absolute;
+  opacity: 1;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #f4f4f5; 
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 1px;
+  font: 400 0.8vmax cursive;
+}
+
+.form-control::placeholder {
+  color: rgb(153, 152, 152);
+  font: 400 0.8vmax cursive;
+}
+
+/* Sign Up Button */
+.SignUp {
+  background-color: rgb(126, 184, 241);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none; /* Use border: none for clarity */
+}
+
+/* Checkbox Link */
+.checkbox a {
+  text-decoration: none;
+}
+
+.checkbox a:hover {
+  text-decoration: underline;
+}
+
+/* Text Small */
+.text-small {
+  font-size: 0.62rem;
+  text-align: justify;
+}
+
+/* Line Bar */
+.line-bar {
+  width: 115px;
+  border: 0.5px solid rgb(182, 180, 180);
+  height: 1px;
+  color: gray;
+}
+
+/* Content Container */
+.content-container p {
+  font-size: 0.8rem;
+  color: gray;
+  font-weight: 400;
+}
+
+/* Invalid Feedback */
+form .invalid-feedback {
+  font-size: 0.6rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+/* Register Image */
+#registerImage {
+  display: flex;
+  margin-top: 15px;
+}
+
+#registerImage > img {
+  width: 3vmax;
+  border-radius: 100%;
+}
+
+#registerImage > input {
+  display: flex;
+  padding: 0%;
+}
+
+#registerImage > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 5vh;
+  border: none;
+  margin: 0%;
+  font: 400 0.8vmax cursive;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(255, 255, 255);
+}
+
+#registerImage > input::file-selector-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  section {
+    width: 800px;
+    padding: 1.5vmax;
+    font-size: 4.5vmax;
+    margin-top: 5vmax;
+  }
+  #banner-container {
+    width: 100%;
+  }
+  .bannerD {
+    display: none;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .form-container h5 {
+    font-size: 20px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    font: 500 4vmax cursive;
+    width: 100%;
+    margin: 1vmax;
+    padding: 6vmax;
+  }
+  .form-control::placeholder {
+    font: 500 4vmax cursive;
+  }
+  .SignUp {
+    font: 400 3vmax cursive;
+    width: 100%;
+    padding: 6vmax;
+  }
+}

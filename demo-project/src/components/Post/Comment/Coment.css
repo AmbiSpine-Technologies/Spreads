@@ -1,0 +1,33 @@
+#CommentList{
+  position: relative;
+
+  .text-small{
+    padding: 8px;
+    width:auto;
+    font: 400 0.8rem cursive;
+    height:auto;
+    cursor: pointer;
+  }
+
+  .text-small:hover{
+    background-color: #dfdcdc;
+    border-radius: 48%;
+
+  }
+
+  .commment-more{
+    position:relative;
+    margin-left: 4rem;
+  }
+  .comment-actions{
+    position: absolute;
+    
+    .dropdown-item{
+      font-size: 0.7rem;
+    }
+    .dropdown-item:hover{
+      background-color: #dfdcdc;
+      border-radius: 5px;
+    }
+  }
+}

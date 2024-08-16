@@ -1,0 +1,15 @@
+.audio-card {
+  cursor: pointer;
+}
+
+.audio-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.audio-image:hover {
+  transform: scale(1.1);
+}

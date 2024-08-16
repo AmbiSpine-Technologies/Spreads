@@ -1,0 +1,45 @@
+.container-layout {
+  height: 100vh;
+  width: 97vw;
+  background-color: #f0f0f0;
+  display: flex;
+}
+
+.side-layout {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  height: 100vh;
+  width: 400px; 
+}
+
+.wrapped-layout {
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 100vh;
+  width: 100%; 
+}
+
+#natworkModal .modal-content {
+  background-color: rgb(250, 248, 248);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .side-layout {
+    width: 300px
+  }
+}
+
+@media (max-width: 576px) {
+  .side-layout {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .container-layout {
+    flex-direction: column; 
+  }
+}

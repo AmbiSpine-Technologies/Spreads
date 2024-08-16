@@ -1,0 +1,73 @@
+h3,h2,h4,h5{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  a{
+    text-decoration: none;
+    color: rgb(70, 155, 189);
+  }
+  .card{
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .main-container{
+    width: 100%;
+    border: 1px solid gainsboro;
+  }
+  .section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction:column;
+  }
+  
+  /* tab-group class styles */
+.tab-group {
+  position: fixed; 
+  left: -450px; 
+  top: 0; 
+  min-height: 100vh;
+  height: 100%; 
+  width: 300px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  padding-top: 20px;
+  margin-left: 2rem; 
+  transition: left 0.3s ease; 
+  z-index: 1000; 
+  background: #f8f9fa; 
+}
+
+/* Show class styles */
+.tab-group.show {
+  left: 0; 
+}
+
+
+
+
+  .scrollable-content {
+    overflow-y: auto;
+    transition: height 0.1s ease; 
+  }
+  
+  
+  /* Optional: Hide scrollbar */
+  .scrollable-content::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .scrollable-content {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  
+  .scrollable-content::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  
+  
+  
+  
